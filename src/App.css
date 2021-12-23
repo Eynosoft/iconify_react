@@ -1,0 +1,20 @@
+.sc-bwzfXH {
+  display: none;
+}
+.container {
+  max-width:400px;
+  margin: 0 auto;
+  width: 100%;
+}
+.if_item {
+  display: inline-block;
+  margin: 7px;
+  width: 10.5%;
+  text-align: center;
+}
+.icon_conatiner {
+  max-height: 400px;
+  overflow-y: scroll;
+  padding: 15px 0px 0px 0px;
+}
+

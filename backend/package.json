@@ -1,0 +1,37 @@
+{
+  "name": "iconify_api",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express. This is to call the iconify api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --delay 500ms server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "iconify_api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iconify/json-tools": "^1.0.6",
+    "@iconify/search-core": "^1.1.0",
+    "body-parser": "^1.19.1",
+    "convert-svg-to-png": "^0.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "optionalDependencies": {
+    "@iconify/json": "^1.1.442",
+    "nodemailer": "^4.6.8"
+  }
+}
